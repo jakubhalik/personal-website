@@ -18,6 +18,10 @@
     }
 }
 
+._19, ._20, ._21, ._22, ._23, ._24, ._25, ._26 {
+    font-weight: 1000;
+}
+
 @for $i from 1 through 35 {
     .text-animate._#{$i} {
         animation-delay: #{$i/10}s;

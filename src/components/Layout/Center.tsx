@@ -3,8 +3,6 @@ import Introduction from "components/Introduction/Introduction";
 import "./center.scss";
 import About from "components/About";
 import LazyLoad from 'react-lazyload';
-import Project from "components/projects/Project";
-import OtherProjects from "components/projects/OtherProjects";
 import Touch from "components/Touch";
 
 const Center = () => {
@@ -14,12 +12,6 @@ const Center = () => {
       <Introduction />
       <LazyLoad once height={566}>
         <About />
-      </LazyLoad>
-      <LazyLoad once height={566}>
-        <Project />
-      </LazyLoad>
-      <LazyLoad once height={566}>
-        <OtherProjects />
       </LazyLoad>
       <LazyLoad once height={566}>
         <Touch />

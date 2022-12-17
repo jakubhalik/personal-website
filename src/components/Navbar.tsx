@@ -21,7 +21,7 @@ const Navbar = () => {
                         <a href="/#about" className="navbar__itemsLink"><span className="navbar__itemsLinkNumeric">02.</span>Kontakt</a>
                     </li>
                 </ul>
-                <a href="https://drive.google.com/file/d/1SArkoqiFxn9qevyzhdjTVBb6oJnRb6F_/view?usp=sharing" target="_blank" rel='noreferrer' className="navbar__button">Životopis</a>
+                <a href="https://drive.google.com/file/d/1H5_LiBfa7228_xnqDIRu2Zov5YwXoTe4/view?usp=sharing" target="_blank" rel='noreferrer' className="navbar__button">Životopis</a>
             </div>
         </nav>
     )

@@ -69,18 +69,13 @@
     &__headingPrimary {
         font-size: 6rem;
         font-weight: 800;
-        line-height: 1;
+        line-height: 1.1;
         letter-spacing: -0.03em;
         margin-bottom: 1.6rem;
         color: var(--lightest-slate);
 
         @include respond(phone) {
             font-size: 5.5rem;
-        }
-
-        @media (min-width: 601px) and (max-width: 750px) {
-            ._14::after {
-            }
         }
 
         &::before {
@@ -112,6 +107,7 @@
         animation: fadeIn 1s 1.8s backwards;
         font-weight: 500;
         margin-bottom: 4.6rem;
+        width: 80%;
 
         &::before {
             content: "<p>";
@@ -213,7 +209,7 @@
         }
 
         &:hover {
-            background-color: rgba(#ffd700, $alpha: 0.1);
+            background-color: #fff;
         }
 
         &Active {

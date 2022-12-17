@@ -22,7 +22,7 @@ const Introduction = () => {
                 <span className="sectiontag">&lt;section&gt;</span>
                 <h1 className="intro__headingPrimary">
                     <span className={letterClass}>Zdra</span><span className={`${letterClass} _12`}>vím,</span>&nbsp;<br />
-                    <span className={`${letterClass} _13`}>jsem&nbsp;</span><span className={`${letterClass} _14`} id="br--after">Jakub</span>&nbsp;
+                    <span className={`${letterClass} _13`}>jsem&nbsp;</span><span className={`${letterClass} _14`}>Jakub</span>&nbsp;
                     <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={15} />
                     <br />
                     <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={19} />

@@ -22,6 +22,18 @@
     font-weight: 1000;
 }
 
+@media (min-width: 601px) and (max-width: 750px) {
+._15, ._27 {
+    display: flex;
+}
+}
+
+@media (min-width: 901px) and (max-width: 1090px) {
+    ._15, ._27 {
+        display: flex;
+    }
+    }
+
 @for $i from 1 through 35 {
     .text-animate._#{$i} {
         animation-delay: #{$i/10}s;

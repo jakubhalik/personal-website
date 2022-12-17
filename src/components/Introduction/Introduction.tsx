@@ -6,7 +6,7 @@ import "./introduction.scss"
 const Introduction = () => {
 
     const [letterClass, setLetterClass] = useState("text-animate")
-    const nameArray = "Halík,".split("")
+    const nameArray = " Halík,".split("")
     const jobArray = "Frontend ".split("")
     const jobArray2 = "Vývojář".split("")
 
@@ -14,10 +14,6 @@ const Introduction = () => {
         setTimeout(() => {
             setLetterClass("text-animate-hover")
         }, 4000)
-
-        document.getElementById("br--after").insertAdjacentHTML("afterend",
-        "<div></div>");        
-
     })
 
     return (
@@ -26,12 +22,11 @@ const Introduction = () => {
                 <span className="sectiontag">&lt;section&gt;</span>
                 <h1 className="intro__headingPrimary">
                     <span className={letterClass}>Zdra</span><span className={`${letterClass} _12`}>vím,</span>&nbsp;<br />
-                    <span className={`${letterClass} _13`} id="br--after">jsem&nbsp;</span><span className={`${letterClass} _14`}>Jakub</span>&nbsp;
+                    <span className={`${letterClass} _13`}>jsem&nbsp;</span><span className={`${letterClass} _14`} id="br--after">Jakub</span>&nbsp;
                     <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={15} />
                     <br />
-                    <img src="" className="intro__logos" alt="" />
                     <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={19} />
-                    <AnimatedLetters letterClass={letterClass} strArray={jobArray2} idx={19} />
+                    <AnimatedLetters letterClass={letterClass} strArray={jobArray2} idx={28} />
                 </h1>
                 <h2 className="intro__headingSecondary">FRONTEND Vývojář + Custom Theme Vývojář + Shopify Expert + špetka backendu</h2>
                 <Link to="/contact" className="intro__button">

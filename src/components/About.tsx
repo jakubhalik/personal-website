@@ -14,7 +14,7 @@ const About = () => {
 
     })
     return (
-        <div className='about'>
+        <div className='about' id='about'>
             <div className="about__left">
                 <span className="sectiontag">&lt;section&gt;</span>
                 <h1 className="about__headingPrimary">

@@ -9,7 +9,7 @@ const Navbar = () => {
         <nav className="navbar">
             <div className="navbar__left">
                 <Link to="/" className="navbar__link">
-                    <img alt='logo' src="https://res.cloudinary.com/dhbiouaym/image/upload/v1663667966/Portfolio/logo_qny4vm.png" className="navbar__img" />
+                    <img alt='logo' src="https://lh3.googleusercontent.com/u/0/drive-viewer/AFDK6gOriTJkSmDb-EcXA0dSmFO2CjvabxQck8le1Faxl5tfN9ev3AcNgDIuyqKEgjM97lo94p2AzMGwXFPYJOiuwPOIJvXu=w1920-h913" className="navbar__img" />
                 </Link>
             </div>
             <div className="navbar__right">
@@ -27,7 +27,7 @@ const Navbar = () => {
                         <a href="/#about" className="navbar__itemsLink"><span className="navbar__itemsLinkNumeric">04.</span>.contact()</a>
                     </li>
                 </ul>
-                <a href="https://drive.google.com/file/d/1SArkoqiFxn9qevyzhdjTVBb6oJnRb6F_/view?usp=sharing" target="_blank" rel='noreferrer' className="navbar__button">Resume</a>
+                <a href="https://drive.google.com/file/d/1SArkoqiFxn9qevyzhdjTVBb6oJnRb6F_/view?usp=sharing" target="_blank" rel='noreferrer' className="navbar__button">Životopis</a>
             </div>
         </nav>
     )

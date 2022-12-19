@@ -49,26 +49,25 @@ const Contact = () => {
                     <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={15} />
                 </h1>
                 <p className='contact__description'>
-                    I am interested in freelance opportunities - especially on ambitious
-                    or large projects. However, if you have any other requests or
-                    questions, don't hesitate to contact me using below form either.
+                    Rád od vás uslyším, ať už jste kdokoliv.<br/>
+                    Žádný email neignoruji, na každý odpovím, ať už se rozhodnu jakkoliv.
                 </p>
                 <div className="form">
                     <form ref={form} onSubmit={sendEmail}>
                         <div className="form__group">
-                            <input name="user_name" ref={inputRef1} type="text" className="form__input" id="name" placeholder="Full Name" required />
-                            <label htmlFor="name" className="form__label">Full Name</label>
+                            <input name="user_name" ref={inputRef1} type="text" className="form__input" id="name" placeholder="Jméno a Příjmení" required />
+                            <label htmlFor="name" className="form__label">Jméno a Příjmení</label>
                         </div>
                         <div className="form__group">
-                            <input type="email" ref={inputRef2} name="user_email" className="form__input" id="email" placeholder="Email Address" required />
-                            <label htmlFor="email" className="form__label">Email Address</label>
+                            <input type="email" ref={inputRef2} name="user_email" className="form__input" id="email" placeholder="Emailová adresa" required />
+                            <label htmlFor="email" className="form__label">Emailová adresa</label>
                         </div>
                         <div className="form__group">
-                            <textarea name="message" ref={inputRef3} className="form__input" id="email" placeholder="Message" required />
-                            <label htmlFor="email" className="form__label">Message</label>
+                            <textarea name="message" ref={inputRef3} className="form__input" id="email" placeholder="Vaše zpráva" required />
+                            <label htmlFor="email" className="form__label">Vaše zpráva</label>
                         </div>
                         <button value="Send" className="intro__button">
-                            Send Mail
+                            Poslat Email
                         </button>
                     </form>
                 </div>

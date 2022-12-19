@@ -23,22 +23,24 @@
 }
 
 @media (max-width: 393px) {
-    ._15, ._27 {
+    .intro__headingPrimary {._15, ._27 {
         display: flex;
     }
     }
+}
 
 @media (min-width: 601px) and (max-width: 750px) {
-._15, ._27 {
+.intro__headingPrimary {._15, ._27 {
     display: flex;
 }
 }
-
+}
 @media (min-width: 901px) and (max-width: 1090px) {
-    ._15, ._27 {
+    .intro__headingPrimary {._15, ._27 {
         display: flex;
     }
     }
+}
 
 @for $i from 1 through 35 {
     .text-animate._#{$i} {

@@ -13,14 +13,14 @@
     }
 
     &__left {
-        flex: 0 0 50%;
+        flex: 0 0 60%;
         padding: 2rem 5rem;
     }
 
     &__right {
         flex: 1;
         width: 100%;
-
+        
         @include respond(phone) {
             display: none;
         }
@@ -109,7 +109,6 @@ textarea {
         @include respond(phone) {
             width: 100%;
         }
-
 
         &:focus {
             outline: none;
@@ -270,6 +269,11 @@ textarea {
     bottom: 80px;
     left:20px;
   
+  }
+  @media (max-width: 900px) {
+    .an {
+        bottom: 420px;
+    }
   }
   @keyframes flo{
     50%{
@@ -591,15 +595,4 @@ textarea {
   .s6{
     top:60px;
     left:370px;
-  }
-  a{
-      color: white;
-      font-size: 25px;
-      font-family: "Rubik",sans-serif;
-      position:absolute;
-      right:20px ;
-      top:20px;
-      padding:8px 12px 8px 12px;
-      border:2px solid white;
-      text-decoration:none;
   }

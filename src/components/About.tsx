@@ -18,7 +18,7 @@ const About = () => {
             <div className="about__left">
                 <span className="sectiontag">&lt;section&gt;</span>
                 <h1 className="about__headingPrimary">
-                    <AnimatedLettersFast letterClass={letterClass} strArray={nameArray} idx={15} />
+                    <AnimatedLettersFast letterClass={letterClass} strArray={nameArray} idx={28} />
                 </h1>
                 <div className='about__description'>
                     Zdravím! Moje jméno je <span className='about__link'>Jakub&nbsp;Halík</span> a jsem Front-End Vývojář narozen a žijící v Brně. Z programování mám nejradši psaní kódu pro animace - Obecně rád přenáším kreativní nápady do světa webů.<br />

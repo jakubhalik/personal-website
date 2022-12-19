@@ -6,7 +6,7 @@ import "./scss/touch.scss"
 const Touch = () => {
 
     const [letterClass, setLetterClass] = useState("text-animate-fast")
-    const nameArray = "Get In Touch".split("")
+    const nameArray = "Kontakt".split("")
 
 
     useEffect(() => {
@@ -15,19 +15,19 @@ const Touch = () => {
         }, 4000)
     })
     return (
-        <section className='sec'>
+        <section className='sec' id="kontakt">
             <span className="sectiontag">&lt;section&gt;</span>
             <div className='touch'>
 
-                <label className='touch__label'>04. Whats Next?</label>
+                <label className='touch__label'>02. Napiš mi</label>
                 <h1 className="touch__headingPrimary">
                     <AnimatedLettersFast letterClass={letterClass} strArray={nameArray} idx={15} />
                 </h1>
                 <p className='touch__description'>
-                    Although I’m not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+                    Ať už jsi velká, nebo malá firma co potřebuje, aby jim nějaký šikovný frontenďák naprogramoval web, víc webů, něco navíc k již existujícímu webu, designér co potřebuje vývojáře co mu nakódí jeho nápad, nebo kdokoliv kdo chce web, dej mi vědět!
                 </p>
                 <Link to="/contact" className="intro__button">
-                    Contact Me
+                    Napiš mi
                 </Link>
 
             </div>

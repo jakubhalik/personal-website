@@ -4,7 +4,7 @@ import "./scss/about.scss"
 const About = () => {
 
     const [letterClass, setLetterClass] = useState("text-animate-fast")
-    const nameArray = "01. About Me".split("")
+    const nameArray = "01. O mně".split("")
 
 
     useEffect(() => {
@@ -18,27 +18,26 @@ const About = () => {
             <div className="about__left">
                 <span className="sectiontag">&lt;section&gt;</span>
                 <h1 className="about__headingPrimary">
-                    <AnimatedLettersFast letterClass={letterClass} strArray={nameArray} idx={15} />
+                    <AnimatedLettersFast letterClass={letterClass} strArray={nameArray} idx={28} />
                 </h1>
                 <div className='about__description'>
-                    Hello! My name is <span className='about__link'>Yash&nbsp;Falke</span> and I’m a Front-End Developer located in India and i have a serious passion for UI effects, animations and creating intuitive, dynamic user experiences.<br />
+                    Zdravím! Moje jméno je <span className='about__link'>Jakub&nbsp;Halík</span> a jsem Front-End Vývojář narozen a žijící v Brně. Z programování mám nejradši psaní kódu pro animace - Obecně rád přenáším kreativní nápady do světa webů.<br />
                     <br />
-                    Well-organised person, problem solver, focused student at <a href='https://vit.edu.in/' target="_blank" rel="noreferrer" className="intro__link">VIT-MUMBAI</a> with high attention to detail. Fan of Gaming esports, outdoor activities, TV series and Japanese anime. A family person and father of two fractious boys.<br />
+                    Jsem velmi dobrý v angličtině, rád se učím nové věci, mám rád problem solving, rád fotím, výletím, užívám krásu přírody.<br />
                     <br />
-                    Here are the few technologies that I'have been working recently: <br />
+                    Technologie, které používám: <br />
                     <ul className='about__skillsList'>
-                        <li className='about__skillsItems'>Javascript(ES6+)</li>
-                        <li className='about__skillsItems'>Python</li>
-                        <li className='about__skillsItems'>HTML/CSS</li>
-                        <li className='about__skillsItems'>Nodejs</li>
-                        <li className='about__skillsItems'>Expressjs</li>
-                        <li className='about__skillsItems'>Reactjs</li>
-                        <li className='about__skillsItems'>MongoDb</li>
-                        <li className='about__skillsItems'>Nextjs</li>
-                        <li className='about__skillsItems'>React Redux</li>
-                        <li className='about__skillsItems'>SQL</li>
-                        <li className='about__skillsItems'>Data Structures</li>
-                        <li className='about__skillsItems'>Algorithms</li>
+                        <li className='about__skillsItems'>HTML</li>
+                        <li className='about__skillsItems'>TailwindCSS</li>
+                        <li className='about__skillsItems'>REACT</li>
+                        <li className='about__skillsItems'>CSS</li>
+                        <li className='about__skillsItems'>Javascript</li>
+                        <li className='about__skillsItems'>jQuery</li>
+                        <li className='about__skillsItems'>SaSS/SCSS</li>
+                        <li className='about__skillsItems'>Typescript</li>
+                        <li className='about__skillsItems'>Liquid</li>
+                        <li className='about__skillsItems'>Bootstrap</li>
+                        <li className='about__skillsItems'>JSON</li>
                     </ul>
                 </div>
                 <span className="sectiontag">&lt;/section&gt;</span>
@@ -48,7 +47,7 @@ const About = () => {
                     <div className="cubespinner">
                         <div className="face1">
                             <svg className="about__icon">
-                                <use href="icons/symbol-defs.svg#icon-python"></use>
+                                <use href="icons/symbol-defs.svg#icon-html5"></use>
                             </svg>
                         </div>
                         <div className="face2">
@@ -63,12 +62,12 @@ const About = () => {
                         </div>
                         <div className="face4">
                             <svg className="about__icon">
-                                <use href="icons/symbol-defs.svg#icon-mongodb"></use>
+                                <use href="icons/symbol-defs.svg#icon-sass"></use>
                             </svg>
                         </div>
                         <div className="face5">
                             <svg className="about__icon">
-                                <use href="icons/symbol-defs.svg#icon-node-dot-js"></use>
+                                <use href="icons/symbol-defs.svg#icon-typescript"></use>
                             </svg>
                         </div>
                         <div className="face6">

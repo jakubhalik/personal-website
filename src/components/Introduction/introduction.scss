@@ -371,8 +371,8 @@ code-animation--body {
     top: calc(50% - 25px);
     left: calc(50% - 25px);
     border-radius: 50%;
-    background-color: #9acfc5;
-    border: 5px solid #43beae;
+    background-color: var(--primary);
+    border: 5px solid var(--thirdary);
     box-sizing: border-box;
   }
   .coffee-header__details {
@@ -570,7 +570,7 @@ code-animation--body {
     position: absolute;
     bottom: 25px;
     left: calc(50% - 47.5%);
-    background-color: #41bdad;
+    background-color: var(--thirdary);
     border-radius: 10px;
   }
   .coffee-footer::after {

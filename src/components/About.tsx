@@ -38,6 +38,7 @@ const About = () => {
                         <li className='about__skillsItems'>Liquid</li>
                         <li className='about__skillsItems'>Bootstrap</li>
                         <li className='about__skillsItems'>JSON</li>
+                        <li className='about__skillsItems'>Git (Gitlab, Github)</li>
                     </ul>
                 </div>
                 <span className="sectiontag">&lt;/section&gt;</span>
